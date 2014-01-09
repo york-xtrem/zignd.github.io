@@ -159,19 +159,37 @@ a:visited { color: #a0a; }
   background-color: #333;
 }
 
-#style-8::-webkit-scrollbar-track
-{
-	border: 1px solid black;
-	background-color: #F5F5F5;
+/*****************************************************************************/
+/*
+/* Scroolbar
+/*
+/*****************************************************************************/
+
+/* Largura da barra de rolagem */
+::-webkit-scrollbar {
+    width: 10px;
 }
 
-#style-8::-webkit-scrollbar
-{
-	width: 10px;
-	background-color: #F5F5F5;
+/* Fundo da barra de rolagem */
+::-webkit-scrollbar-track-piece {
+    background-color: #EEE;
+    border-left: 1px solid #CCC
 }
 
-#style-8::-webkit-scrollbar-thumb
-{
-	background-color: #000000;	
+/* Cor do indicador de rolagem */
+::-webkit-scrollbar-thumb:vertical,
+::-webkit-scrollbar-thumb:horizontal {
+    background-color: #BAC0C4
+}
+
+/* Cor do indicador de rolagem - ao passar o mouse */
+::-webkit-scrollbar-thumb:vertical:hover,
+::-webkit-scrollbar-thumb:horizontal:hover {
+    background-color: #717171
+}
+
+/* Cor do indicador de rolagem - ao clicar com o mouse */
+::-webkit-scrollbar-thumb:vertical:active,
+::-webkit-scrollbar-thumb:horizontal:active {
+    background-color: #4F4F4F
 }
