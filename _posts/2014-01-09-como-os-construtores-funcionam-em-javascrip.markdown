@@ -6,7 +6,7 @@ categories: jekyll update
 permalink: construtor-javascript
 ---
 
-Um função construtora não precisa criar um objeto, pois quando ela é chamada através de uma chamada de contrutor (ex. new Range()) um objeto é automaticamente criado e esse construtor é executado como método desse objeto ou seja você tem acesso ao novo objeto através da palavra chave `this`. Quando o prototype do novo objeto será o prototype do construtor.
+Um função construtora não precisa criar um objeto, pois quando ela é chamada através de uma chamada de contrutor (ex. `new Range()`) um objeto é automaticamente criado e esse construtor é executado como método desse objeto ou seja você tem acesso ao novo objeto através da palavra chave `this`. Quando o prototype do novo objeto será o prototype do construtor.
  
 {% highlight javascript %}
 function Range(from, to) {
