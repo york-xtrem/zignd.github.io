@@ -35,7 +35,7 @@ console.log(r);
 {% endhighlight %}
 
 
-#Criando propriedades
+Criando propriedades
 
 Exemplo:
 {% highlight javascript %}
