@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	$basetexture zignd/zignd_nlr_bubble5
+	$translucent 1
+	$nocull 1
+	$alpha 0.5
+}
